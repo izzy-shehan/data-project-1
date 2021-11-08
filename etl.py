@@ -103,8 +103,8 @@ def main():
     8. maximum temperature
 
     -c, --city = city name to pull data on (default = Charlottesville)
-    -f, --freq = how often to make an api call when pulling 1+ records (default = 300)
     -n = number of api calls to make for 1 city (default = 1)
+    -f, --freq = how often (in seconds) to make an api call when pulling 1+ records (default = 300)
     -csv = csv file to write data to (default = weather_data.csv)
     """
 
@@ -176,3 +176,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+
